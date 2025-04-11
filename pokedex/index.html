@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <title>Simple Pokédex</title>
+</head>
+<style>
+    body{
+        font-family: 'Alfa Slab One';
+        color: rgb(253, 189, 51);
+        font-weight: lighter;
+    }
+</style>
+<body>
+    <div>
+        <div id="navbar">
+            <div class="padding2"><h2>Simple PokéDex</h2></div>
+            <div class="padding2"></div>
+            <div class="esq"><h2><a class="link" href="https://pokeapi.co/">PokéAPI</a></h2></div>
+            <div class="padding2"></div>
+            <div class="centro"><h2><a class="link" href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">BulbaPedia</a></h2></div>
+            <div class="padding3"></div>
+            <div class="dir">
+                <div id="search">
+                    <div class="padding1"></div>
+                    <input id="codigo" placeholder="Search by Name">
+                    <div class="padding2"></div>
+                    <button id="but" onclick="carregarDados()">Search!</button>
+                    <div class="padding2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="box">
+            <div class="capitalize" id="name"></div>
+            <div id="id"></div>
+        </div>
+        <div id="box1">
+            <img id="image" src="" style="display: none;">
+        </div>
+        <div id="stats">
+            <div class="capitalize" id="type1"></div>
+            <div id="type2"></div>
+            <div id="hpdisplay">
+                <div id="hpname"></div>
+                <div id="hp"></div>
+            </div>
+            <div class="capitalize" id="attackname"></div>
+            <div id="attack"></div>
+            <div class="capitalize" id="defensename"></div>
+            <div id="defense"></div>
+            <div class="capitalize" id="saname"></div>
+            <div id="specialattack"></div>
+            <div class="capitalize" id="sdname"></div>
+            <div id="specialdefense"></div>
+            <div class="capitalize" id="spdname"></div>
+            <div id="speed"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
