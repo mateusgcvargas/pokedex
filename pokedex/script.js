@@ -10,7 +10,7 @@ function carregarDados(){
         document.getElementById("name").innerHTML = dado.name
         document.getElementById("id").innerHTML = dado.id
 
-        let img = dado.sprites.other.dream_world.front_default
+        let img = dado.sprites.other.home.front_default
 
         if (img) {
             let imageEl = document.getElementById("image")
